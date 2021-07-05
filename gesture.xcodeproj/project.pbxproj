@@ -8,11 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		BB2CF479262F3210006AF4A8 /* gestureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CF478262F3210006AF4A8 /* gestureApp.swift */; };
-		BB2CF47B262F3210006AF4A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CF47A262F3210006AF4A8 /* ContentView.swift */; };
 		BB2CF47D262F3211006AF4A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2CF47C262F3211006AF4A8 /* Assets.xcassets */; };
 		BB2CF480262F3211006AF4A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2CF47F262F3211006AF4A8 /* Preview Assets.xcassets */; };
 		BB2CF48B262F3212006AF4A8 /* gestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CF48A262F3212006AF4A8 /* gestureTests.swift */; };
 		BB2CF496262F3212006AF4A8 /* gestureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2CF495262F3212006AF4A8 /* gestureUITests.swift */; };
+		BB4859E4269266EF0046C77F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4859E3269266EF0046C77F /* ViewController.swift */; };
+		BB4859E626926B4D0046C77F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4859E526926B4D0046C77F /* GameView.swift */; };
+		BB4859E826926B730046C77F /* WinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4859E726926B730046C77F /* WinView.swift */; };
+		BB4859EA26926B860046C77F /* LoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4859E926926B860046C77F /* LoseView.swift */; };
+		BB4859EC26926BA40046C77F /* StoreRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4859EB26926BA40046C77F /* StoreRecordView.swift */; };
+		BB4859EE26926BE30046C77F /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4859ED26926BE30046C77F /* RecordView.swift */; };
+		BB4859F026926C150046C77F /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4859EF26926C150046C77F /* ListRowView.swift */; };
+		BB4859F426926D310046C77F /* 下一题.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB4859F326926D310046C77F /* 下一题.mp3 */; };
+		BB4859F626926D3A0046C77F /* 答對音效.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB4859F526926D3A0046C77F /* 答對音效.mp3 */; };
+		BB4859F826926D430046C77F /* 答錯音效.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB4859F726926D430046C77F /* 答錯音效.mp3 */; };
+		BB4859FA26926D740046C77F /* redLine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB4859F926926D740046C77F /* redLine.mp3 */; };
+		BB4859FD26926E010046C77F /* RecordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4859FC26926E010046C77F /* RecordData.swift */; };
+		BB4859FF26926E410046C77F /* RoleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4859FE26926E410046C77F /* RoleData.swift */; };
+		BB485A0126926E600046C77F /* GameTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB485A0026926E600046C77F /* GameTimer.swift */; };
+		BB485A0326926FF40046C77F /* AVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB485A0226926FF40046C77F /* AVPlayer.swift */; };
+		BB74F951262FEA7A007FFFC2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB74F950262FEA7A007FFFC2 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +50,6 @@
 /* Begin PBXFileReference section */
 		BB2CF475262F3210006AF4A8 /* gesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2CF478262F3210006AF4A8 /* gestureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gestureApp.swift; sourceTree = "<group>"; };
-		BB2CF47A262F3210006AF4A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB2CF47C262F3211006AF4A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB2CF47F262F3211006AF4A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB2CF481262F3211006AF4A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +59,22 @@
 		BB2CF491262F3212006AF4A8 /* gestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2CF495262F3212006AF4A8 /* gestureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gestureUITests.swift; sourceTree = "<group>"; };
 		BB2CF497262F3212006AF4A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB4859E3269266EF0046C77F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB4859E526926B4D0046C77F /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		BB4859E726926B730046C77F /* WinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinView.swift; sourceTree = "<group>"; };
+		BB4859E926926B860046C77F /* LoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseView.swift; sourceTree = "<group>"; };
+		BB4859EB26926BA40046C77F /* StoreRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreRecordView.swift; sourceTree = "<group>"; };
+		BB4859ED26926BE30046C77F /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		BB4859EF26926C150046C77F /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		BB4859F326926D310046C77F /* 下一题.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "下一题.mp3"; sourceTree = "<group>"; };
+		BB4859F526926D3A0046C77F /* 答對音效.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "答對音效.mp3"; sourceTree = "<group>"; };
+		BB4859F726926D430046C77F /* 答錯音效.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "答錯音效.mp3"; sourceTree = "<group>"; };
+		BB4859F926926D740046C77F /* redLine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = redLine.mp3; sourceTree = "<group>"; };
+		BB4859FC26926E010046C77F /* RecordData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordData.swift; sourceTree = "<group>"; };
+		BB4859FE26926E410046C77F /* RoleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleData.swift; sourceTree = "<group>"; };
+		BB485A0026926E600046C77F /* GameTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTimer.swift; sourceTree = "<group>"; };
+		BB485A0226926FF40046C77F /* AVPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayer.swift; sourceTree = "<group>"; };
+		BB74F950262FEA7A007FFFC2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +125,19 @@
 		BB2CF477262F3210006AF4A8 /* gesture */ = {
 			isa = PBXGroup;
 			children = (
+				BB4859FB26926DE10046C77F /* Model */,
 				BB2CF478262F3210006AF4A8 /* gestureApp.swift */,
-				BB2CF47A262F3210006AF4A8 /* ContentView.swift */,
+				BB4859E3269266EF0046C77F /* ViewController.swift */,
+				BB74F950262FEA7A007FFFC2 /* HomeView.swift */,
+				BB4859E526926B4D0046C77F /* GameView.swift */,
+				BB4859E726926B730046C77F /* WinView.swift */,
+				BB4859E926926B860046C77F /* LoseView.swift */,
+				BB4859EB26926BA40046C77F /* StoreRecordView.swift */,
+				BB4859ED26926BE30046C77F /* RecordView.swift */,
+				BB4859EF26926C150046C77F /* ListRowView.swift */,
+				BB485A0026926E600046C77F /* GameTimer.swift */,
+				BB485A0226926FF40046C77F /* AVPlayer.swift */,
+				BB4859F226926D150046C77F /* resource */,
 				BB2CF47C262F3211006AF4A8 /* Assets.xcassets */,
 				BB2CF481262F3211006AF4A8 /* Info.plist */,
 				BB2CF47E262F3211006AF4A8 /* Preview Content */,
@@ -128,6 +169,26 @@
 				BB2CF497262F3212006AF4A8 /* Info.plist */,
 			);
 			path = gestureUITests;
+			sourceTree = "<group>";
+		};
+		BB4859F226926D150046C77F /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				BB4859F326926D310046C77F /* 下一题.mp3 */,
+				BB4859F526926D3A0046C77F /* 答對音效.mp3 */,
+				BB4859F726926D430046C77F /* 答錯音效.mp3 */,
+				BB4859F926926D740046C77F /* redLine.mp3 */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		BB4859FB26926DE10046C77F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB4859FC26926E010046C77F /* RecordData.swift */,
+				BB4859FE26926E410046C77F /* RoleData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +294,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB4859F426926D310046C77F /* 下一题.mp3 in Resources */,
 				BB2CF480262F3211006AF4A8 /* Preview Assets.xcassets in Resources */,
+				BB4859F826926D430046C77F /* 答錯音效.mp3 in Resources */,
+				BB4859F626926D3A0046C77F /* 答對音效.mp3 in Resources */,
+				BB4859FA26926D740046C77F /* redLine.mp3 in Resources */,
 				BB2CF47D262F3211006AF4A8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +324,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB2CF47B262F3210006AF4A8 /* ContentView.swift in Sources */,
+				BB4859EC26926BA40046C77F /* StoreRecordView.swift in Sources */,
+				BB4859E826926B730046C77F /* WinView.swift in Sources */,
+				BB4859E4269266EF0046C77F /* ViewController.swift in Sources */,
+				BB74F951262FEA7A007FFFC2 /* HomeView.swift in Sources */,
+				BB4859FF26926E410046C77F /* RoleData.swift in Sources */,
+				BB485A0126926E600046C77F /* GameTimer.swift in Sources */,
+				BB4859E626926B4D0046C77F /* GameView.swift in Sources */,
+				BB4859EE26926BE30046C77F /* RecordView.swift in Sources */,
+				BB4859FD26926E010046C77F /* RecordData.swift in Sources */,
 				BB2CF479262F3210006AF4A8 /* gestureApp.swift in Sources */,
+				BB4859EA26926B860046C77F /* LoseView.swift in Sources */,
+				BB485A0326926FF40046C77F /* AVPlayer.swift in Sources */,
+				BB4859F026926C150046C77F /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
